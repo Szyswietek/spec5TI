@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.2, created on 2023-11-17 11:23:16
+/* Smarty version 4.3.2, created on 2023-11-29 13:20:59
   from 'C:\xampp\htdocs\specTI-main\spec04_smarty\app\calc_SMART_view.html' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.2',
-  'unifunc' => 'content_65573f140a0e54_33764485',
+  'unifunc' => 'content_65672cab762254_27819472',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8b8b9f3b400cd6894fac6a244b60b6a16fef9f3a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\specTI-main\\spec04_smarty\\app\\calc_SMART_view.html',
-      1 => 1700216591,
+      1 => 1701260455,
       2 => 'file',
     ),
   ),
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_65573f140a0e54_33764485 (Smarty_Internal_Template $_smarty_tpl) {
+function content_65672cab762254_27819472 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_213975438365573f14091994_33997186', 'footer');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_183474175065672cab74cb38_49302814', 'footer');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_191724407665573f14092716_13284837', 'content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_195432021465672cab750840_27329803', 'content');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/main.html");
 }
 /* {block 'footer'} */
-class Block_213975438365573f14091994_33997186 extends Smarty_Internal_Block
+class Block_183474175065672cab74cb38_49302814 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'footer' => 
   array (
-    0 => 'Block_213975438365573f14091994_33997186',
+    0 => 'Block_183474175065672cab74cb38_49302814',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -51,12 +51,12 @@ przykładowa tresć stopki wpisana do szablonu głównego z szablonu kalkulatora
 }
 /* {/block 'footer'} */
 /* {block 'content'} */
-class Block_191724407665573f14092716_13284837 extends Smarty_Internal_Block
+class Block_195432021465672cab750840_27329803 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'content' => 
   array (
-    0 => 'Block_191724407665573f14092716_13284837',
+    0 => 'Block_195432021465672cab750840_27329803',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -65,8 +65,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 <body>
     
 
-<form action="<?php echo $_smarty_tpl->tpl_vars['app_url']->value;?>
-/app/calc.php" method="post">
+<form action="/app/calc.php" method="post">
 
     <label style="color: white;">Kwota:</label>  
 	<input id="kwota" type="number" name="kwota"  value="<?php echo $_smarty_tpl->tpl_vars['form']->value['kwota'];?>
